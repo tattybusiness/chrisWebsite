@@ -9,13 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="bulma/css/bulma.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Document</title>
 </head>
 <body>
     <div class="hero has-text-white" style="height: 100vh;">
         <section class="section">
             <!-- Navigation -->
-            <nav class="navbar is-transparent">
+            <nav class="navbar animate__animated animate__fadeInDown is-transparent">
                 <div class="navbar-brand">
                     <a href="index.html" class="navbar-item">
                         <img src="assets/logo.svg" alt="logo">
@@ -48,7 +49,7 @@
                 </div>
             </nav>
                 <!-- Header -->
-                <div class="is-flex is-justify-content-center is-align-items-center" style="height: 70vh;">
+                <div class="is-flex is-justify-content-center is-align-items-center animate__animated animate__fadeIn animate__slower" style="height: 70vh;">
                     <div class="content">
                         <p class="is-size-2 has-text-weight-bold" style="max-width: 70vw">
                             Lorem ipsum dolor sit amet, consetetur sadipscing et elitr, sed diam nonumy eirmod.
@@ -142,10 +143,10 @@
                 <a href="about.html" class="has-text-black has-text-weight-bold">Learn More</a>
             </div>
             <div class="icons" style="margin-top: 10rem; margin-bottom: -5rem;">
-                <a href="#"><img src="assets/twitterGrey.svg" alt="twitter" class="mr-4" style="max-height: 22px;"></a>
-                <a href="#"><img src="assets/facebookGrey.svg" alt="facebook" class="mr-4" style="max-height: 22px"></a>
-                <a href="#"><img src="assets/linkedInGrey.svg" alt="linkedin" class="mr-4" style="max-height: 22px"></a>
-                <a href="#"><img src="assets/instagramGrey.svg" alt="instagram" style="max-height: 22px"></a>
+                <a href="#"><img src="assets/twitterGreen.svg" alt="twitter" class="mr-4" style="max-height: 22px;"></a>
+                <a href="#"><img src="assets/facebookGreen.svg" alt="facebook" class="mr-4" style="max-height: 22px"></a>
+                <a href="#"><img src="assets/linkedInGreen.svg" alt="linkedin" class="mr-4" style="max-height: 22px"></a>
+                <a href="#"><img src="assets/instagramGreen.svg" alt="instagram" style="max-height: 22px"></a>
             </div>
         </div>
         <div class="block right">
@@ -163,7 +164,7 @@
                 </div>
                 <a href="products.html" class="serviceLink is-align-self-flex-end grey is-underlined"  style="margin-bottom: 2rem">View all services</a>
             </div>
-            <div class="columns is-mobile is-multiline">
+            <div class="columns is-mobile is-multiline has-text-black">
                 <div class="column is-narrow">
                     <img src="assets/narrowOne.jpg" alt="image">
                     <p class="is-size-5 has-text-weight-bold mb-1 mt-4">Lorem ipsum dolor</p>
@@ -184,6 +185,55 @@
             </div>
         </div>
     </section>
+
+    <!-- Section Five -->
+    <div class="is-flex is-justify-content-center five">
+        <div class="myContent">
+            <p class="is-size-2 has-text-white">
+                Lorem ipsum dolor sit amet, consetetur sadipscing et <br> elitr, sed diam nonumy eirmod.
+            </p>
+            <div class="myLink has-text-weight-bold is-flex is-align-items-center pt-4">
+                <a href="contact.html" class="is-size-5">Contact Us</a>
+                <img src="assets/arrow.svg" class="ml-3" alt="arrow">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+     <section class="section myFooter">
+         <div class="container footerContainer is-flex is-justify-content-space-between">
+            <div class="left">
+                <img src="assets/maingreylogo.svg" alt="greyLogo">
+                <p class="is-size-6 mt-4 has-text-black" style="max-width: 500px; font-weight: 500;">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam este 
+                    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+                </p>
+                <p class="is-size-6 has-text-weight-bold mt-5">
+                    Copyright 2022 Eneron. All Rights Reserved
+                </p>
+            </div>
+            <div class="right is-flex is-justify-content-space-between" style="width: 22%;">
+                <div class="quick-nav is-flex-direction-column">
+                    <p class="is-size-5 has-text-weight-bold is-uppercase grey">Navigation</p>
+                    <div class="is-flex-direction-column mt-2" style="max-width: 100px;">
+                        <a href="#" class="link is-size-6" style="color: #000;">Lorem ipsum</a>
+                        <a href="#" class="link is-size-6" style="color: #000;">Lorem ipsum</a>
+                        <a href="#" class="link is-size-6" style="color: #000;">Lorem ipsum</a>
+                        <a href="#" class="link is-size-6" style="color: #000;">Lorem ipsum</a>
+                    </div>
+                </div>
+                <div class="quick-nav is-flex-direction-column">
+                    <p class="is-size-5 has-text-weight-bold is-uppercase grey">Navigation</p>
+                    <div class="is-flex-direction-column mt-2" style="max-width: 100px;">
+                        <a href="#" class="link is-size-6" style="color: #000;">Lorem ipsum</a>
+                        <a href="#" class="link is-size-6" style="color: #000;">Lorem ipsum</a>
+                        <a href="#" class="link is-size-6" style="color: #000;">Lorem ipsum</a>
+                        <a href="#" class="link is-size-6" style="color: #000;">Lorem ipsum</a>
+                    </div>
+                </div>
+            </div>
+         </div>
+     </section>
 
     <!-- Scrips -->
     <script src="main.js"></script>

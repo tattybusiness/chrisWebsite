@@ -78,6 +78,15 @@ html {
     width: 100vw;
 }
 
+.three .left .icons a {
+    filter:grayscale();
+}
+
+.three .left .icons a:hover {
+    filter:none;
+    transition: 0.2s ease;
+}
+
 /* section four */
 .myLine {
     width: 100%;
@@ -92,6 +101,32 @@ html {
 
 .four .column img {
     max-width: 315px;
+}
+
+/* section five */
+.five {
+    background-image: url(assets/BG2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 7rem 3rem;
+    margin-top: 6rem;
+}
+
+.five p.is-size-2 {
+    font-weight: 500;
+}
+
+.five .myLink a {
+    color: #fff;
+}
+
+.five .myLink a:hover {
+    margin-right: 0.6rem;
+    transition: 0.3s ease;
+}
+
+.five .myLink img {
+    width: 40px;
 }
 
 /* Custom Scrollbar */
@@ -160,6 +195,13 @@ html {
     .navbar a.link {
         margin-left: 1.5rem;
     }
+    .myFooter .footerContainer {
+        display: block !important;
+    }
+    .myFooter .footerContainer .right {
+        margin-top: 3rem;
+        gap: 2rem;
+    }
 }
 
 .is-active {
@@ -182,6 +224,22 @@ html {
     }
     .three .left .buttons {
         height: 40vw;
+    }
+    .four .mytext {
+        flex-direction: column;
+    }
+    .four .mytext a {
+        align-self: flex-start !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .four .columns .column {
+        padding: unset;
+        padding-bottom: 1rem;
+    }
+    .four .columns .column img {
+        max-width: 300px;
     }
 }
 
