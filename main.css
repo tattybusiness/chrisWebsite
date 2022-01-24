@@ -231,6 +231,10 @@ html {
     .four .mytext a {
         align-self: flex-start !important;
     }
+    .header {
+        justify-content: unset !important;
+        margin-left: 1rem;
+    }
 }
 
 @media only screen and (max-width: 350px) {
