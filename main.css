@@ -10,6 +10,10 @@
     color: #F8F8F8;
 }
 
+span {
+    color: #449351;
+}
+
 html {
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
@@ -18,6 +22,8 @@ html {
 
 .hero {
     background-image: url(assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     /* height: 100vh; */
 }
 
@@ -127,6 +133,10 @@ html {
 
 .five .myLink img {
     width: 40px;
+}
+
+.myFooter {
+    background-color: #F8F8F8;
 }
 
 /* Custom Scrollbar */

@@ -1,0 +1,43 @@
+input {
+    width: 17vw !important;
+}
+
+input, textarea {
+    border: 1px solid #449351 !important;
+    border-radius: 0px !important;
+}
+
+.space {
+    justify-content: space-between;
+}
+
+/* media queries */
+@media only screen and (max-width: 1700px) {
+    input {
+        width: 20vw !important;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    input {
+        width: 23vw !important;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    input {
+        width: 30vw !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    input {
+        width: 36vw !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    input {
+        width: 100% !important;
+    }
+}
